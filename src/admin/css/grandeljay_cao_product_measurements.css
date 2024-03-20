@@ -1,0 +1,19 @@
+.measurements {
+    width: 57%;
+}
+
+.measurements > tbody > tr > td:first-of-type {
+    width: 260px;
+}
+
+.measurements input:invalid {
+    background-color: #d68181;
+}
+
+.measurements input[type="text"] {
+    max-width: 155px;
+}
+
+.measurements input.number {
+    text-align: right;
+}

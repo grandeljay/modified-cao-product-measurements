@@ -1,0 +1,32 @@
+{
+    "name": "CAO Product Measurements",
+    "archiveName": "grandeljay/cao-product-measurements",
+    "sourceDir": "src",
+    "version": "auto",
+    "shortDescription": "Allows you to send product measurements from CAO to your shop.",
+    "description": "Please refer to Details for a full description.",
+    "developer": "grandeljay",
+    "developerWebsite": "https://github.com/grandeljay",
+    "website": "https://github.com/grandeljay/modified-cao-product-measurements",
+    "modifiedCompatibility": [
+        "2.0.7.2"
+    ],
+    "category": "productinfos",
+    "price": "free",
+    "require": {
+        "composer/autoload": "^1.5.0",
+        "robinthehood/modified-std-module": "^0.12.0",
+        "grandeljay/translator": "^0.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grandeljay\\CaoProductMeasurements\\": "src-mmlc"
+        }
+    },
+    "php": {
+        "version": "^8.1.0"
+    },
+    "mmlc": {
+        "version": "^1.22.0"
+    }
+}
