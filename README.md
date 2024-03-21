@@ -26,4 +26,4 @@ As of writing this, this module is available in **five** different languages:
 
 ## Support
 
-Notice a bug or something isn't working as espected? You can create an issue for it here: [github.com/grandeljay/modified-cao-product-measurements/issues](https://github.com/grandeljay/modified-cao-product-measurements/issues/new/choose).
+Notice a bug or something isn't working as expected? You can create an issue for it here: [github.com/grandeljay/modified-cao-product-measurements/issues](https://github.com/grandeljay/modified-cao-product-measurements/issues/new/choose).
