@@ -10,6 +10,6 @@
 
 namespace Grandeljay\CaoProductMeasurements;
 
-if (\rth_is_module_enabled(Constants::MODULE_PRODUCT_NAME)) {
+if (\rth_is_module_enabled(Constants::MODULE_SHOPPING_CART_NAME)) {
     Cao::productsUpdate();
 }

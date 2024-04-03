@@ -12,7 +12,7 @@ namespace Grandeljay\CaoProductMeasurements;
 
 class Constants
 {
-    public const MODULE_PRODUCT_NAME = 'MODULE_PRODUCT_GRANDELJAY_CAO_PRODUCT_MEASUREMENTS_PRODUCT';
+    public const MODULE_SHOPPING_CART_NAME = 'MODULE_SHOPPING_CART_GRANDELJAY_CAO_PRODUCT_MEASUREMENTS_SHOPPING_CART';
 
     public const TABLE_MEASUREMENTS = 'grandeljay_cao_product_measurements';
 }

@@ -10,9 +10,7 @@
 
 namespace Grandeljay\CaoProductMeasurements;
 
-use Grandeljay\Translator\Translations;
-
-if (\rth_is_module_disabled(Constants::MODULE_PRODUCT_NAME)) {
+if (\rth_is_module_disabled(Constants::MODULE_SHOPPING_CART_NAME)) {
     return;
 }
 
@@ -21,9 +19,9 @@ if (!isset($_GET['pID'])) {
 }
 
 $language_filepath = \sprintf(
-    \DIR_FS_CATALOG . 'lang/%s/modules/product/%s.php',
+    \DIR_FS_CATALOG . 'lang/%s/modules/shopping_cart/%s.php',
     $_SESSION['language'],
-    \grandeljay_cao_product_measurements_product::class
+    \grandeljay_cao_product_measurements_shopping_cart::class
 );
 
 require $language_filepath;
@@ -62,7 +60,7 @@ $products_height = $measurements_data['products_height'] ?? 0;
                     $parameters = \http_build_query(
                         [
                             'set'    => 'product',
-                            'module' => \grandeljay_cao_product_measurements_product::class,
+                            'module' => \grandeljay_cao_product_measurements_shopping_cart::class,
                         ]
                     );
                     $link       = \sprintf(

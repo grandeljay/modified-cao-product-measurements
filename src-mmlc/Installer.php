@@ -24,7 +24,7 @@ class Installer
             )
             COMMENT="Created during the installation of module: %s. Table will be removed when module is deinstalled in modified."',
             Constants::TABLE_MEASUREMENTS,
-            \grandeljay_cao_product_measurements_product::class
+            \grandeljay_cao_product_measurements_shopping_cart::class
         );
 
         \xtc_db_query($table_create_sql);
