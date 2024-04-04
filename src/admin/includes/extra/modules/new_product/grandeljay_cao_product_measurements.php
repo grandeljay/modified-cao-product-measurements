@@ -59,7 +59,7 @@ $products_height = $measurements_data['products_height'] ?? 0;
                     <?php
                     $parameters = \http_build_query(
                         [
-                            'set'    => 'product',
+                            'set'    => 'shopping_cart',
                             'module' => \grandeljay_cao_product_measurements_shopping_cart::class,
                         ]
                     );
