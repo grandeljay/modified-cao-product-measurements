@@ -16,7 +16,7 @@ use RobinTheHood\ModifiedStdModule\Classes\StdModule;
 
 class grandeljay_cao_product_measurements_shopping_cart extends StdModule
 {
-    public const VERSION = '0.2.0';
+    public const VERSION = '0.2.1';
 
     public function __construct()
     {
