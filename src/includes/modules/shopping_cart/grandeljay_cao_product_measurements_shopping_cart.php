@@ -68,6 +68,10 @@ class grandeljay_cao_product_measurements_shopping_cart extends StdModule
             return $product_info;
         }
 
+        if (!isset($product_data['products_id'])) {
+            return $product_info;
+        }
+
         $product_measurements_query = xtc_db_query(
             sprintf(
                 'SELECT `products_length` AS "length",
